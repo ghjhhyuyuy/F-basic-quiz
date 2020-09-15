@@ -61,15 +61,37 @@ main {
   font-size: 1.3rem;
 }
 
-.about_me {
-  height: 10%;
-}
-
-.education {
-  height: 50%;
-}
 .header {
+  padding-top: 1.5rem;
   width: 100%;
   border-bottom: 0.3rem solid $gray-light;
   padding-bottom: $padding-size;
+}
+
+.img {
+  width: 6%;
+  border-radius: 50%;
+  position: absolute;
+  top: 3%;
+  left: 47%;
+}
+
+.descriptions {
+  li {
+    padding-top: 2rem;
+    display: flex;
+    span {
+      padding-right: 10rem;
+    }
+    p {
+      background-color: $gray-light;
+      display: inline-block;
+      margin: 0;
+      width: 100%;
+      span {
+        display: block;
+        padding-right: 0;
+      }
+    }
+  }
 }
