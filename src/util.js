@@ -1,5 +1,5 @@
 export function getUrl(localUrl) {
-  return localUrl.replace("1234", "3000");
+  return localUrl.replace("1234", "8080");
 }
 
 export function getEducationsUrl(url) {
