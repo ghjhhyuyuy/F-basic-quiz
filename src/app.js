@@ -8,7 +8,7 @@ import {
 } from "./util";
 
 $(window).load(function () {
-  const localUrl = window.location.href;
+  const localUrl = "101.132.111.165:1234";
   const url = getUrl(localUrl);
   const educationsUrl = getEducationsUrl(url);
   $.get(url, function (data) {
