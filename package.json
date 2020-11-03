@@ -5,7 +5,7 @@
   "repository": "https://github.com/GTB-training/F-basic-quiz.git",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "parcel index.html",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
