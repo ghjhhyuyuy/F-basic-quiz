@@ -1,5 +1,5 @@
 export function getUrl(localUrl) {
-  return localUrl.replace("1234", "8080");
+  return localUrl.replace("47.102.197.127:1234", "101.132.111.165:8080");
 }
 
 export function getEducationsUrl(url) {
